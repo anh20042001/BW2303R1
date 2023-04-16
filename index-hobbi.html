@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sở thích</title>
+    <style>
+        body{
+            text-align: center;
+            border-style: solid;
+            border-color:aqua;
+            border-width: 20px;
+        }
+        h2{
+            font-family: "Lucida Console", "Courier New", monospace;
+            background-color: red;
+            color: white;
+        }
+        tr{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>SỞ THÍCH CỦA BẠN</h2>
+    <form action="" method="get">
+        <table class="content" >
+            <tr>
+                <th>Họ tên</th>
+                <th><input type="text" name="yourname" ></th>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <th><input type="text" name="email" ></th>
+            </tr>
+            <tr>
+                <th>Sở thích</th>
+                <th><input type="checkbox" class="hobbi" name="hobbi1" >Thể thao</th>
+                <th><input type="checkbox" class="hobbi" name="hobbi2" >Âm nhạc</th>
+                <th><input type="checkbox" class="hobbi" name="hobbi3" >Đọc sách</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th><input type="checkbox" class="hobbi" name="hobbi4" >Lướt web</th>
+                <th><input type="checkbox" class="hobbi" name="hobbi5" >Chơi game</th>
+                <th><input type="checkbox" class="hobbi" name="hobbi6" >Điện ảnh</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th><input type="checkbox" class="hobbi" name="hobbi7" >Du lịch</th>
+            </tr>
+        </table>
+        <input type="submit" name="submit-form" value="Gửi thông tin" id="">
+        <input type="reset" name="reset-form" value=" Nhập lại" id="">
+    </form>
+</body>
+</html>
